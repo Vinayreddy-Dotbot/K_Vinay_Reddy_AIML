@@ -8,7 +8,7 @@ int main()
     for(i=num;i>=1;i--)
         {
             printf("multiplication table for %d:\n",i);
-        for(j=num;j>=1;j--)
+        for(j=10;j>=1;j--)
             printf("%dX%d=%d\n",i,j,i*j);
         }
 
